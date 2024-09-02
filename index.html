@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website-2</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Frome cloudflare we place link to add icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    
+     <!-- place boxicons link -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"/> -->
+</head>
+<body> 
+    <header class="header">
+    <a href="#home" class="logo">Olive
+    <span>Janifer</span></a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+    
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#About">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+
+
+
+
+</header>
+<!-- Home section -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>Hi , it's<span>Olive</span></h1>
+        <!-- Element to contain animated typing -->
+  <h3><span id="element"></span></h3>
+        <!-- <h3>I'm a<span>Frontend Developer</span></h3> -->
+         <p>I am very passionate about my work,I always do my best to complete my task</p>
+        <!-- <div class="social-icons">
+            <a href="#">
+               <i class="bx bx1-linkedin-square"></i> 
+            </a>
+            <a href="#">
+                <i class="bx bx1-instagram-square"></i> 
+             </a>
+             <a href="#">
+                <i class="bx bx1-x-square"></i> 
+             </a>
+             <a href="#">
+                <i class="bx bx1-whatsapp-square"></i> 
+             </a>
+        </div> -->
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        
+
+        <div class="btn-group">
+            <a href="#" class="btn">Hire</a>
+            <a href="#contact" class="btn">contact</a>
+
+        </div>
+
+        </div>
+    <div class="home-img">
+        <img src="assests/neongirl.jpg" alt="stylesheet">
+    </div>
+</section>
+
+<!-- about section -->
+
+<section class="About" id="About">
+     <div class="about-img">
+        <img src="assests/neonman.jpg" alt="stylesheet">
+     </div>
+     <div class="about-content">
+        <h2>About<span>Me</span></h2>
+        <p>I am a Frontend developer ,I can creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app</p>
+    <a href="#" class="btn">More</a>
+     </div>
+</section>
+
+<!-- Service -->
+
+<section class="services" id="services">
+     <h2 class="heading">Services</h2>
+    
+    <div class="services-container">
+
+        <div class="services-box">
+        <div class="services-info">
+            <i class="bx bxs-devices"></i>
+            <h4>MERN  Developer</h4>
+            <p> I build robust and scalable web applications using JavaScript, MongoDB, Express, React, and Node. js</p>
+        </div>
+        </div>
+         
+        <!--  -->
+        <div class="services-box">
+            <div class="services-info">
+                <i class="bx bxs-code"></i>
+                <h4>MERN  Developer</h4>
+                <p> I build robust and scalable web applications using JavaScript, MongoDB, Express, React, and Node. js</p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="services-box">
+            <div class="services-info">
+                <i class="bx bxs-code-curly"></i>
+                <h4>MERN  Developer</h4>
+                <p> I build robust and scalable web applications using JavaScript, MongoDB, Express, React, and Node. js</p>
+            </div>
+        </div>
+ 
+
+         
+    </div>
+</section>
+<!-- Contact section -->
+<section class="contact" id="contact">
+    <h2 class="heading">contact<span>Me</span></h2>
+    <form action="">
+
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email">
+
+ 
+            </div>
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Phone Number">
+            <input type="text" placeholder="Subject">
+        </div>
+        </div>
+        <div class="input-group-2">
+            <textarea name="" id=" " cols="30" rowa="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </div>
+
+    </form>
+
+</section>
+<footer class="footer">
+    <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <ul class="List">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+        <li>
+            <a href="Services">Services</a>
+        </li>
+        <li>
+            <a href="About">About Me</a>
+        </li>
+        <li>
+            <a href="Contact">Contact</a>
+        </li>
+
+    </ul>
+  <p class="copyright">
+    O Olive Janifer All rights reserved
+  </p>
+
+
+
+    
+
+
+
+</footer>
+ 
+    <script src="portfolio.js"> </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i> I am a</i> Frontend', ' Frontend Developer.'],
+          typeSpeed: 250,
+        });
+      </script>
+</body>
+</html>
